@@ -116,7 +116,7 @@ public class TC01_M3_R16_MTA_Referral_SimpleTax_Validation extends Implementatio
 					StartDate = DataWorkBook.readCellString(pc_sheet_name, "Product_Creation", "StratDate");
 					SearchDateFrom = DataWorkBook.readCellString(pc_sheet_name, "MTA_Client", "SearchDateFrom");
 					SearchDateTo = DataWorkBook.readCellString(pc_sheet_name, "MTA_Client", "SearchDateTo");
-					Transaction = DataWorkBook.readCellString(pc_sheet_name, "MTA_Client", "Transaction");
+					Transaction = DataWorkBook.readCellString(pc_sheet_name, "MTA_Client", "Transactiony");
 					Type = DataWorkBook.readCellString(pc_sheet_name, "MTA_Client", "Type");
 					
 						 
